@@ -83,14 +83,38 @@ console.log(1 + 2 +"3");//33 */
 // console.log(+true);//1
 // console.log(+"");//0
 
-let value = 200;
-let preIncremenVlue = ++value;// pre-increment -201
-console.log(preIncrementVlue);
+// let value = 200;
+// ++value;// pre-increment -201
+// console.log(value);
 
 // let value = 100;
+// --value; 
+// console.log(value);
 
-// let postIncrementVlue = ++value;
-// console.log(postIncrementVlue);
+// let value =100;
+// value--;
+// console.log(value);
+
+// let value =100;
+//  --value;
+//  console.log(value);
+
+// preincrement************
+
+/*let x = 5;
+let y = ++x; // x becomes 6, then y is assigned the new value of x (6)
+console.log(x); // Output: 6
+console.log(y); // Output: 6*/
+
+//postincrement************
+
+/*let a = 5;
+let b = a++; // b is assigned the current value of a (5), then a is incremented to 6
+console.log(a); // Output: 6
+console.log(b); // Output: 5*/
+
+
+// same in case of decrement operation*****//
 
 
 
