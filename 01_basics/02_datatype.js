@@ -16,4 +16,23 @@ console.log(typeof isLogIn)//boolean datatype
 console.log(typeof state)//undefined datatype
 console.log(typeof temprature)// object datatype
 
+// premitive datatype
+//7 type: String,Number,BOOlean,Null,Stmbol,BigInt
+
+//non-premitive datatype
+// array,objects,function
+
+const  heros = ["shaktiman", "naagraj", "doga"] //array
+
+let myObj={
+    name:"bhupendra",
+    age: 18,
+    isLOgIn: true
+} //object
+
+const myFunction = function() {
+    console .log("hellow world")
+}//function
+
+
 
