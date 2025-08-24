@@ -49,12 +49,62 @@ console.log(booleanString1);//true*/
 
 // boolran to string..............................
 
-let isLOgIn = false ;
+/*let isLOgIn = false ;
 console.log(typeof isLOgIn);// boolean
 
 let stringBoolean = String(isLOgIn);
 console.log(stringBoolean);// false
 console.log(typeof stringBoolean);// string
+
+//*************************Operation********************///////// */
+
+/*let value = 33;
+let negValue = -value;
+console.log(negValue);//-33*/
+
+/*console.log(5*2);//10 
+console.log(7/2);//3.5
+console.log(2+2);//4
+console.log(5%2);//1
+console.log(3-2);//1 */
+
+
+/*let str1 = "hellow";
+let str2 =" bhupendra" ;
+
+let str3 = str1 + str2;
+console.log(str3);*/
+
+/*console.log("1" + 2); //12
+console.log(1 + "1"); //11
+console.log("1" + 2 +3 );//123
+console.log(1 + 2 +"3");//33 */
+
+// console.log(+true);//1
+// console.log(+"");//0
+
+let value = 200;
+let preIncremenVlue = ++value;// pre-increment -201
+console.log(preIncrementVlue);
+
+// let value = 100;
+
+// let postIncrementVlue = ++value;
+// console.log(postIncrementVlue);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
