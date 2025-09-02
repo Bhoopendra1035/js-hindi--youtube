@@ -44,19 +44,19 @@ console.log(myArr3);*/
 // console.log(myArr3.indexOf(3)); //2
 // console.log(myArr3.indexOf(12));//-1
 
-/*//6 (join)
+//6 (join)
 const myArr3 = new Array(1,2,3,4,5,6,7,);
 const newArr = myArr3.join()
 console.log(newArr);
-console.log(typeof(newArr));//string */
+console.log(typeof(newArr));//string 
 
 // ***************SLICE AND SPLICE*******************
 
 //SLICE********* no changes in original array
-const myn1 = new Array(1,2,3,4,5,6,);
+/*const myn1 = new Array(1,2,3,4,5,6,);
 newN1 = myn1.slice(2,5,); // array.slice(kaha se s , kaha tak alg krna he)
 console.log(newN1);
-console.log(myn1);
+console.log(myn1);*/
 
 //splice************ initialization in original array.
 /*const myn1 = new Array(1,2,3,4,5,6,7);
