@@ -44,9 +44,9 @@ console.log(myArr3);*/
 // console.log(myArr3.indexOf(3)); //2
 // console.log(myArr3.indexOf(12));//-1
 
-//6 (join)
+//6 (join) isse sabhi ke bich me * join ho jayeha  
 const myArr3 = new Array(1,2,3,4,5,6,7,);
-const newArr = myArr3.join()
+const newArr = myArr3.join('*')
 console.log(newArr);
 console.log(typeof(newArr));//string 
 
