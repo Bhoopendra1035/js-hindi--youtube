@@ -60,11 +60,23 @@ tinderUser.id = "123abc"
 tinderUser.name = "samat raina"
 tinderUser.isLoggedIn = false
 
+/* 
 console.log(tinderUser);
 console.log(Object.keys(tinderUser));// all keys of object access in array datatype
 console.log(Object.values(tinderUser));// all values of object access in array datatype
 console.log(Object.entries(tinderUser));// each key and value seprated in array fron 
 console.log(Object.length);//1
+*/
+
+// check the value exist in object = true/false
+
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));// true
+console.log(tinderUser.hasOwnProperty("324"));//false
+console.log(tinderUser.hasOwnProperty("id"));//true
+
+
+
+
 
 
 
