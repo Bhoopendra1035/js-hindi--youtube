@@ -53,15 +53,16 @@ console.log(typeof(newArr));//string */
 // ***************SLICE AND SPLICE*******************
 
 //SLICE********* no changes in original array
-const myn1 = new Array(1,2,3,4,5,6,7);
-newN1 = myn1.slice(2,5);
+const myn1 = new Array(1,2,3,4,5,6,);
+newN1 = myn1.slice(2,5,); // array.slice(kaha se s , kaha tak alg krna he)
 console.log(newN1);
 console.log(myn1);
 
 //splice************ initialization in original array.
-newN2 = myn1.splice(2,5);
+/*const myn1 = new Array(1,2,3,4,5,6,7);
+newN2 = myn1.splice(2,5,8); // arr.aplice(kaha se start krna he , kitna delete krna he , kya new add krna he )
 console.log(newN2);
-console.log(myn1);
+console.log(myn1);*/
 
 
 
