@@ -70,9 +70,13 @@ console.log(Object.length);//1
 
 // check the value exist in object = true/false
 
+/*
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));// true
 console.log(tinderUser.hasOwnProperty("324"));//false
 console.log(tinderUser.hasOwnProperty("id"));//true
+*/
+
+  
 
 
 
