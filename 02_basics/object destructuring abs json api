@@ -1,0 +1,17 @@
+
+
+// json declaration
+
+// {
+//     "name": "bhupendra",
+//     "coursename:" "js in hindi",
+//     "price": "free"
+// }
+
+
+// array ke form me bhi json de skte he 
+[
+    {},
+    {},
+    {}
+]
